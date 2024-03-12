@@ -2,7 +2,7 @@ package com.tmt.pdf.viewer
 
 import com.getcapacitor.Plugin
 import com.getcapacitor.PluginCall
-import com.getcapacitor.PluginMethod
+import com.getcapacitor.PluginMethods
 import com.getcapacitor.annotation.CapacitorPlugin
 import com.tmt.pdf.viewer.util.saveTo
 
@@ -13,7 +13,7 @@ class PDFViewPlugin : Plugin() {
     @PluginMethod
     fun preview(call: PluginCall) {
 
-        url = call.data.getStdring("url") as String
+        url = call.data.getString("value") as String
         launchPdfFromUrl(url)
 
         call.resolve()
