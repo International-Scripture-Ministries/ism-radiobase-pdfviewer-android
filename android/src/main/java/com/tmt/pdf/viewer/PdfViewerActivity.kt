@@ -181,10 +181,11 @@ class PdfViewerActivity : AppCompatActivity() {
             typedArray1.recycle()
         }
 
-        enableDownload = intent.extras!!.getBoolean(
+        /*enableDownload = intent.extras!!.getBoolean(
             ENABLE_FILE_DOWNLOAD,
             false
-        )
+        )*/
+        enableDownload = false
 
         val headerData: HeaderData? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             intent.getParcelableExtra("headers", HeaderData::class.java)

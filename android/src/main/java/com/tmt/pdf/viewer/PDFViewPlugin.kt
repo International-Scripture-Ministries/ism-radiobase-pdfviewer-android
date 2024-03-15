@@ -2,7 +2,7 @@ package com.tmt.pdf.viewer
 
 import com.getcapacitor.Plugin
 import com.getcapacitor.PluginCall
-import com.getcapacitor.PluginMethods
+import com.getcapacitor.PluginMethod
 import com.getcapacitor.annotation.CapacitorPlugin
 import com.tmt.pdf.viewer.util.saveTo
 
@@ -24,7 +24,7 @@ class PDFViewPlugin : Plugin() {
             PdfViewerActivity.launchPdfFromUrl(
                 context = activity.applicationContext,
                 pdfUrl = url,
-                pdfTitle = "PDF Title",
+                pdfTitle = "",
                 saveTo = saveTo.ASK_EVERYTIME,
                 enableDownload = true
             )

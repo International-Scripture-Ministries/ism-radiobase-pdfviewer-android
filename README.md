@@ -23,9 +23,7 @@ npx cap sync
 ### preview(...)
 
 ```typescript
-Capacitor.Plugins.PDFView.preview({
-    url:  'https://css4.pub/2015/usenix/example.pdf'
-});
+preview(url: { value: string; }) => Promise<{ value: string; }>
 ```
 
 | Param     | Type                            |

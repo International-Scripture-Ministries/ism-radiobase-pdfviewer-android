@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-pdf-viewer",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "PDF Viewer for Ionic 7 Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
