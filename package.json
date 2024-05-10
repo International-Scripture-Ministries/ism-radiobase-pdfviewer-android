@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-pdf-viewer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "PDF Viewer for Ionic 7 Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -9,8 +9,7 @@
   "files": [
     "android/src/main/",
     "android/build.gradle",
-    "dist/",
-    "PdfViewerAndroid.podspec"
+    "dist/"
   ],
   "author": "",
   "license": "MIT",
