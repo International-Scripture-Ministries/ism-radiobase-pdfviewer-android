@@ -1,12 +1,23 @@
-# pdf-viewer-android
+<h3> Capacitor Plugin PDF Viewer </h3>
+PDF Viewer for Ionic 7 Capacitor Android
 
-PDF Viewer for Ionic 7 Capacitor
+### Prerequisites
+- Clone the project<br/>
+- Open project in a Code Editor (Visual Studio is recommended)<br/>
+- Open project folder in terminal run command `npm install`
 
-## Install
+### Tested on
+
+- Ionic 7 <a href="https://ionicframework.com/docs" target="_blank"> Ionic Documentation</a><br/>
+- Capacitor CLI 5.5.1
+
+## Getting Started
+### Installation
 
 ```bash
-npm install pdf-viewer-android
+npm install https://github.com/International-Scripture-Ministries/capacitor-plugins/android/pdf-viewer-android
 npx cap sync
+ionic capacitor build android
 ```
 
 ## API
@@ -32,6 +43,7 @@ preview(url: { value: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
+- Call the PdfViewer preview() method to preview pdf file by providing pdf source url into value param
 --------------------
 
 </docgen-api>
