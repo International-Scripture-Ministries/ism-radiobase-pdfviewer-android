@@ -115,7 +115,7 @@ class ZoomableRecyclerView @JvmOverloads constructor(
 
     private inner class GestureListener : SimpleOnGestureListener() {
       override fun onScroll(
-        e1: MotionEvent,
+        e1: MotionEvent?,
         e2: MotionEvent,
         distanceX: Float,
         distanceY: Float

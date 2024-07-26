@@ -43,7 +43,6 @@ preview(url: { value: string; }) => Promise<{ value: string; }>
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
-- Call the PdfViewer preview() method to preview pdf file by providing pdf source url into value param
 --------------------
 
 </docgen-api>
